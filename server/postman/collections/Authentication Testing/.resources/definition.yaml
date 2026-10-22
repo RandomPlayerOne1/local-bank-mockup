@@ -1,0 +1,15 @@
+$kind: collection
+variables:
+  - key: bearer_token_06rw
+    secret: true
+    disabled: false
+  - key: json_web_token_0mlv
+    secret: true
+    disabled: false
+  - key: json_web_token_0xv1
+    secret: true
+    disabled: false
+auth:
+  - id: d6032c6c-b9ae-48df-b177-9fff2e665593
+    type: bearer
+    name: Bearer Token

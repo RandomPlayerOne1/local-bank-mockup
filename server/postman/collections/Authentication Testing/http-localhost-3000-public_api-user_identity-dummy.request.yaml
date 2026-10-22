@@ -1,0 +1,8 @@
+$kind: http-request
+name: http://localhost:3000/public_api/user_identity/dummy
+description: ""
+url: http://localhost:3000/public_api/user_identity/dummy
+method: GET
+headers:
+  Authorization: Bearter {{json_web_token_0xv1}}
+order: 2000

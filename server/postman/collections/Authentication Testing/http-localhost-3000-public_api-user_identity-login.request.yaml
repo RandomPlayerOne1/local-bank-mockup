@@ -1,0 +1,11 @@
+$kind: http-request
+name: http://localhost:3000/public_api/user_identity/login
+description: ""
+url: http://localhost:3000/public_api/user_identity/login
+method: POST
+headers:
+  Authorization: "{{bearer_token_06rw}}"
+body:
+  type: json
+  content: "{\r\n    \"username\": \"minus\"\r\n}"
+order: 1000

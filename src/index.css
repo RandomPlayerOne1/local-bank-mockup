@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #0B1220;
+  --color-surface: #172554;
+  --color-primary: #3B82F6;
+  --color-textcolor: #E2E8F0;
+  --color-accent: #38BDF8;
+}
+
+@layer components {
+  .hoverable-burger {
+    @apply relative flex shadow-lg bg-background pl-2 pr-2 rounded-3xl transition-all cursor-pointer;
+
+    &:hover {
+      @apply bg-surface rounded-xl;
+    }
+  }
+
+  .prompt-window {
+    @apply relative rounded-xl bg-surface text-textcolor
+  }
+}
